@@ -1,0 +1,107 @@
+body {
+font-family: "Helvetica Neue";
+font-weight: 300;
+background-color: #eeeeee;
+}
+
+#header {
+background-color: #002D40;
+border-bottom: 0px;
+color: white;
+padding-bottom: 1em;
+}
+
+a {
+color: #aaaaaa !important;
+transition: 0.2s color;
+}
+
+.link .title {
+font-size: 24px;
+font-weight: 300;
+color: #002D40 !important;
+}
+
+a:hover, .link .title:hover {
+color: #E54661 !important;
+text-decoration: none !important;
+}
+
+.side, .entry {
+padding: 1em !important;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+#search input {
+width: 100% !important;
+}
+
+iframe[name="ad_main"] {
+width: 100% !important;
+}
+
+.tabmenu li a {
+background: none !important;
+border: 0 !important;
+font-weight: 300;
+}
+
+.entry .buttons li a {
+font-weight: 300;
+}
+
+body .RES-keyNav-activeElement {
+background-color: white !important;
+}
+
+.pagename {
+font-size: 24px;
+font-weight: 300;
+}
+
+h1.redditname a {
+font-weight: 300 !important;
+font-size: 32px !important;
+}
+
+.fancy-toggle-button .active, .res-fancy-toggle-button {
+border: 0 !important;
+color: white !important;
+padding: 1em 0.5em;
+display: block !important;
+text-align: center;
+background: #2C594F !important;
+border-radius: 0;
+font-weight: 300;
+}
+
+.fancy-toggle-button {
+display: block !important;
+}
+
+.fancy-toggle-button .active {
+background: #E54661 !important;
+}
+
+.morelink {
+background: #2C594F !important;
+border: 0 !important;
+height: auto;
+transition: 0.2s background;
+}
+
+.morelink:hover {
+background: #FFA644 !important;
+}
+
+.morelink a {
+color: white !important;
+font-weight: 300;
+padding: 1em 0;
+}
+
+.morelink .nub {
+display: none;
+}
